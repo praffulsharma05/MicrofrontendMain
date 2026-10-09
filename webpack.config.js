@@ -17,6 +17,8 @@ module.exports = {
     },
     output: {
         publicPath: process.env.PUBLIC_URL || "auto",
+        filename: '[name].[contenthash].js',
+        chunkFilename: '[name].[contenthash].js',
     },
     module: {
         rules: [
