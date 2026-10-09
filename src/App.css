@@ -1,0 +1,74 @@
+.app-container {
+    margin: 0;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    background-color: #f4f7f6;
+}
+
+.content-box {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.title {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+.description {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.open-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0,123,255,0.2);
+    transition: all 0.2s ease;
+}
+
+.open-btn:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,123,255,0.3);
+}
+
+.open-btn:active {
+    transform: translateY(0) scale(0.98);
+}
+
+.loading {
+    margin-top: 20px;
+    color: #666;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.custom-input {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.custom-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
